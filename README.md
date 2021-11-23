@@ -1,6 +1,6 @@
 # Python-Exercises
-Here you can find some python exercises, I will make them in my free time, so it will serve as a simple portfolio. <br/>
-In case of everything work out as planned(i have free time), I will provide more than one answer to each question. <br/>
+Here you can find some python exercises. <br/>
+In case of everything work out as planned(i have free time), I will provide more than one answer to each question (Usually useless, just for fun) <br/>
 https://www.w3resource.com/python-exercises/, w3resource is the resource(ha!) of the questions.
 
 <details>
