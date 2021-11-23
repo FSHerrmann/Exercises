@@ -21,7 +21,7 @@ Twinkle, twinkle, little star,
 	How I wonder what you are
 </pre>
           
-Firt method:
+First method:
 <pre>
 # Just use """ to print multiple line  
 print("""Twinkle, Twinkle, little star,
@@ -164,5 +164,80 @@ name()
 
 # 4.156754732131958 Seconds.
 </pre>
+</details>
+<details>
+        	<summary>6</summary>
+Write a Python program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers.
+Sample data : 3, 5, 7, 23
+Output :
+List : ['3', ' 5', ' 7', ' 23']
+Tuple : ('3', ' 5', ' 7', ' 23')
 
+First method:
+<pre>
+
+UserNumbers = (input("Insert your sequence of comma-separated numbers: "))
+UserNumbersList = UserNumbers.split((","))
+print((type(UserNumbersList), UserNumbersList))
+UserNumbersTuple = tuple(UserNumbersList)
+
+# Time:  3.716700315475464
+</pre>
+</details>
+		
+<details>
+        	<summary>7</summary>
+Write a Python program to accept a filename from the user and print the extension of that.
+Sample filename : abc.java
+Output : java
 	
+
+<pre>
+FileName = input("""Enter your file name with extension , example: mybook.txt 
+your turn: """)
+FileName = FileName.split(".")
+print(FileName[-1])
+
+# Time 7.073101282119751
+</pre>
+</details>
+		
+<details>
+        	<summary>8</summary>
+Write a Python program to display the first and last colors from the following list.
+color_list = ["Red","Green","White" ,"Black"]
+
+<pre>
+color_list = ["Red","Green","White" ,"Black"]
+print(color_list[0], color_list[-1])
+
+# Time 0.012399673461914062
+</pre>
+</details>
+		
+<details>
+        	<summary>9</summary>
+ Write a Python program to display the examination schedule. (extract the date from exam_st_date).
+exam_st_date = (11, 12, 2014)
+Sample Output : The examination will start from : 11 / 12 / 2014
+
+<pre>
+exam_st_date = (11, 12, 2014)
+exam_st_date = list(exam_st_date)
+print ("The examination will start from: ", exam_st_date[0],"/", exam_st_date[1], "/", exam_st_date[2])
+
+# Time 0.0004971027374267578
+</pre>
+</details>
+		
+<details>
+        	<summary>10</summary>
+Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn
+	<br>Sample value of n is 5
+		<br>Expected Result : 615
+<pre>
+BaseNumber = int(input("Enter the number n: "))
+print(BaseNumber + BaseNumber**2 + BaseNumber**3)
+
+# Time 2.142456293106079
+</pre>
