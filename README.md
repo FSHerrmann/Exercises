@@ -241,3 +241,50 @@ print(BaseNumber + BaseNumber**2 + BaseNumber**3)
 
 # Time 2.142456293106079
 </pre>
+</details>
+		
+<details>
+        	<summary>11</summary>
+Write a Python program to print the documents (syntax, description etc.) of Python built-in function(s).
+	<br>Sample function: abs()
+
+<pre>
+print(abs.__doc__)
+
+# Time 0.0 , could be faster
+</pre>
+</details>
+		
+<details>
+        	<summary>12</summary>
+Write a Python program to print the calendar of a given month and year.
+	<br>Note : Use 'calendar' module.
+
+
+<pre>
+year = int(input("Year: "))
+month = int(input("Month: "))
+
+print(calendar.month(year, month))
+
+# Time 0.0 , could be faster
+</pre>
+</details>
+
+<details>
+        	<summary>14</summary>
+Write a Python program to calculate number of days between two dates.
+	<br>Sample dates : (2014, 7, 2), (2014, 7, 11)
+	<br>Expected output : 9 days
+
+
+
+<pre>
+from datetime import date
+
+fdate = date(2020, 5, 5)
+ldate = date(2021, 5, 5)
+print((ldate - fdate).days)
+
+# Time 0.003968238830566406
+</pre>
