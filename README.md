@@ -288,3 +288,47 @@ print((ldate - fdate).days)
 
 # Time 0.003968238830566406
 </pre>
+</details>
+
+<details>
+        	<summary>15</summary>
+ Write a Python program to compute the product of a list of integers (without using for loop)
+<pre>
+actualposition ,total  = 0, 1
+numbers = [3, 3, 2]
+total = 1
+
+while actualposition  < (len(numbers)):
+    total = (numbers[actualposition]*total)
+    actualposition += 1
+</pre>
+</details>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<details>
+        	<summary>116 (mb) </summary>
+Write a Python program to print Unicode characters.
+<pre>
+Unicode = u'\03 \u004E \u0049 \u0043 \u0045 \03'
+print(Unicode)
+</pre>
+# Time 0.0004966259002685547
