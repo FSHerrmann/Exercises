@@ -166,3 +166,41 @@ fdate = date(2020, 5, 5)
 ldate = date(2021, 5, 5)
 print((ldate - fdate).days)
 
+# 15 -  Write a Python program to compute the product of a list of integers (without using for loop)
+actualposition ,total  = 0, 1
+numbers = [3, 3, 2]
+total = 1
+
+while actualposition  < (len(numbers)):
+    total = (numbers[actualposition]*total)
+    actualposition += 1
+	
+	
+# 16 - Write a Python program to get the difference between a given number and 17, if the number is greater than 17 return double the absolute difference.
+number = float(input("Enter your number: "))
+numberdif = 17 - number
+if numberdif > 0:
+    print(numberdif)
+else:
+    print((numberdif**2))
+	
+# 17 - Write a Python program to test whether a number is within 100 of 1000 or 2000.
+YourNumber = float(input("Enter your number: "))
+if abs(YourNumber - 1000) <= 100:
+    print("Close to 1000")
+elif abs(YourNumber - 2000) <= 100:
+    print("Close to 2000")
+    print(YourNumber - 2000)
+else: print("None of them")
+
+	
+	
+	
+	
+	
+	
+# 116 (My bad) - Write a Python program to print Unicode characters.
+Unicode = u'\03 \u004E \u0049 \u0043 \u0045 \03'
+print(Unicode)
+
+#17 - 
