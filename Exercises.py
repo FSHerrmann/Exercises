@@ -193,9 +193,20 @@ elif abs(YourNumber - 2000) <= 100:
     print(YourNumber - 2000)
 else: print("None of them")
 
-	
-	
-	
+# 18 - Write a Python program to calculate the sum of three given numbers, if the values are equal then return three times of their sum.
+def nsums(n1, n2, n3):
+
+    if n1 == n2 == n3:
+        sum = (n1+n2+n3)*3
+    else:
+        sum = (n1+n2+n3)
+    return sum
+
+
+print(nsums(-3, 0, 9))
+print(nsums(2, 2, 2))
+
+
 	
 	
 	
