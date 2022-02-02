@@ -206,8 +206,27 @@ def nsums(n1, n2, n3):
 print(nsums(-3, 0, 9))
 print(nsums(2, 2, 2))
 
+# 19 -  Write a Python program to get a new string from a given string where "Is" has been added to the front.
+# If the given string already begins with "Is" then return the string unchanged.
 
-	
+def input_Is (x):
+    if phrase[0:2] == "Is":
+        print(phrase)
+    else:
+        print("Is"+phrase)
+
+phrase = ("ThisOk?")
+input_Is(phrase)
+phrase = ("IsThisOk?")
+input_Is(phrase)
+
+#20 Write a Python program to get a string which is n (non-negative integer) copies of a given string.
+def repeat_this (x, y):
+    print(x*y)
+
+repeat_this("Hi", 3)
+
+#21 
 	
 	
 # 116 (My bad) - Write a Python program to print Unicode characters.
