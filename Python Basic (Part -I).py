@@ -226,8 +226,34 @@ def repeat_this (x, y):
 
 repeat_this("Hi", 3)
 
-#21 
-	
+#21 Write a Python program to find whether a given number (accept from the user) is even or odd, print out an appropriate message to the user.
+def even_or_odd(x):
+    if x%2 == 0:
+        print("Even Number")
+    else:
+        print("Odd Number")
+
+num = int(input("Insert Number: "))
+
+even_or_odd(num)
+
+#22 -  Write a Python program to count the number 4 in a given list.
+def search_num4(x):
+    nums_4 = 0
+    for i in x:
+        if i == 4:
+            nums_4 += 1
+
+    print(nums_4)
+
+list_one = [0, 1, 2, 3, 4, 5, 6]
+list_two = [4, 4 , 4, 4, 4, 4, 4]
+search_num4(list_one)
+search_num4(list_two)
+
+#23 -  Write a Python program to get the n (non-negative integer) copies of the first 2 characters of a given string. 
+# Return the n copies of the whole string if the length is less than 2
+
 	
 # 116 (My bad) - Write a Python program to print Unicode characters.
 Unicode = u'\03 \u004E \u0049 \u0043 \u0045 \03'
