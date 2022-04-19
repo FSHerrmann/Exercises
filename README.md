@@ -308,8 +308,32 @@ while actualposition  < (len(numbers)):
 <details>
         	<summary>116 (mb) </summary>
 Write a Python program to print Unicode characters.
-<pre>
-Unicode = u'\03 \u004E \u0049 \u0043 \u0045 \03'
-print(Unicode)
-</pre>
+	<pre>
+	Unicode = u'\03 \u004E \u0049 \u0043 \u0045 \03'
+	print(Unicode)
+	</pre>
 # Time 0.0004966259002685547
+</details>
+
+<details>
+	<summary>16</summary>
+Write a Python program to get the difference between a given number and 17, if the number is greater than 17 return double the absolute difference.
+<pre>
+try:
+    n1 = float(input("Enter your given number: "))
+except ValueError:
+    print("Number my brother")
+if n1 > 17:
+    print((n1 - 17)*2)
+elif n1 == 17:
+    print("Even number")
+else:
+    print ("Given number is lower then 17")
+</pre>
+</details>
+
+	<summary>17</summary>
+Write a Python program to test whether a number is within 100 of 1000 or 2000.
+<pre>
+
+
