@@ -332,8 +332,131 @@ else:
 </pre>
 </details>
 
+<details>
 	<summary>17</summary>
 Write a Python program to test whether a number is within 100 of 1000 or 2000.
 <pre>
+YourNumber = float(input("Enter your number: "))
+if abs(YourNumber - 1000) <= 100:
+    print("Close to 1000")
+elif abs(YourNumber - 2000) <= 100:
+    print("Close to 2000")
+    print(YourNumber - 2000)
+else: print("None of them")
+</pre>
+</details>
+
+<details>
+	<summary>18</summary>
+Write a Python program to calculate the sum of three given numbers, if the values are equal then return three times of their sum.
+<pre>
+def nsums(n1, n2, n3):
+    if n1 == n2 == n3:
+        sum = (n1+n2+n3)*3
+    else:
+        sum = (n1+n2+n3)
+    return sum
+
+print(nsums(-3, 0, 9))
+print(nsums(2, 2, 2))
+</pre>
+</details>
+
+<details>
+	<summary>19</summary>
+Write a Python program to get a new string from a given string where "Is" has been added to the front.
+If the given string already begins with "Is" then return the string unchanged.
+<pre>
+def input_Is (x):
+	if phrase[0:2] == "Is":
+        print(phrase)
+    else:
+        print("Is"+phrase)
+
+phrase = ("ThisOk?")
+input_Is(phrase)
+phrase = ("IsThisOk?")
+input_Is(phrase)
+</pre>
+</details>
+<details>
+	<summary>20</summary>
+Write a Python program to get a string which is n (non-negative integer) copies of a given string.
+
+<pre>
+	def repeat_this (x, y):
+    print(x*y)
+
+repeat_this("Hi", 3)
+</pre>
+</details>
+
+<details>
+	<summary>21</summary>
+Write a Python program to find whether a given number (accept from the user) is even or 
+odd, print out an appropriate message to the user.
+<pre>
+def even_or_odd(x):
+    if x%2 == 0:
+        print("Even Number")
+    else:
+        print("Odd Number")
+
+num = int(input("Insert Number: "))
+
+even_or_odd(num)
+</pre>
+</details>
+
+<details>
+	<summary>22</summary>
+Write a Python program to count the number 4 in a given list.
+<pre>
+def search_num4(x):
+    nums_4 = 0
+    for i in x:
+        if i == 4:
+            nums_4 += 1
+
+    print(nums_4)
+
+list_one = [0, 1, 2, 3, 4, 5, 6]
+list_two = [4, 4 , 4, 4, 4, 4, 4]
+search_num4(list_one)
+search_num4(list_two)
+</pre>
+</details>
+
+<details>
+	<summary>23</summary>
+Write a Python program to get the n (non-negative integer) copies of the first 2 characters
+of a given string. Return the n copies of the whole string if the length is less than
+<pre>
+def copies(word, rep):
+    firstwo = word[0:2]
+    print(firstwo*rep)
+
+word = str(input("Enter with the word or phrase: "))
+rep = int(input("How many times you want to repeat the first two letters?"))
+copies(word, rep)
+</pre>
+</details>
+
+<details>
+	<summary>24</summary>
+Write a Python program to test whether a passed letter is a vowel or not.
+<pre>
+	def vogal(letter):
+    vogais = "aeiou"
+    return letter in vogais
+
+letter = str(input("Enter your letter: "))
+if (vogal(letter) == True):
+    print("Vowel")
+else:
+    print("Not Vowel")
+
+</pre>
+</details>
 
 
