@@ -2,7 +2,7 @@
 Here you can find some python exercises. <br/>
 In case of everything work out as planned(i have free time), I will provide more than one answer to each question (Usually useless, just for fun) <br/>
 https://www.w3resource.com/python-exercises/, w3resource is the resource(ha!) of the questions.
-<!-- Update Later
+
 <details>
 <summary>W3RESOURCE</summary>
 	<details>
@@ -313,4 +313,3 @@ Unicode = u'\03 \u004E \u0049 \u0043 \u0045 \03'
 print(Unicode)
 </pre>
 # Time 0.0004966259002685547
--->
