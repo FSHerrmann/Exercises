@@ -1,7 +1,8 @@
-# Python
+
+<h1>Python</h1>
 Here you can find some python exercises. <br/>
 In case of everything work out as planned(i have free time), I will provide more than one answer to each question (Usually useless, just for fun) <br/>
-https://www.w3resource.com/python-exercises/, w3resource is the resource(ha!) of the questions.
+<a href= "w3resource.com/python-exercises">w3resource</a> is the resource(ha!) of the questions.
 
 <details>
 <summary>W3RESOURCE</summary>
@@ -458,5 +459,21 @@ else:
 
 </pre>
 </details>
+	
+	
+</details>
+</details>
+</details>
+<h1>C++</h1>
 
+<a href= "w3resource.com/cpp-exercises">W3resource</a>
 
+<details>
+<summary>W3RESOURCE</summary>
+	<details>
+	<summary>C++ Basic</summary>
+ 		<details>
+		
+		</details>
+	</details>
+</details>
