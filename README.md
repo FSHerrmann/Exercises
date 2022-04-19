@@ -465,15 +465,13 @@ else:
 </details>
 </details>
 <h1>C++</h1>
-
-<a href= "w3resource.com/cpp-exercises">W3resource</a>
-
 <details>
-<summary>W3RESOURCE</summary>
-	<details>
-	<summary>C++ Basic</summary>
- 		<details>
+	<summary><a href= "w3resource.com/cpp-exercises">W3resource</a></summary>
+	<details><summary>C++ Basic</summary>
+	
 		
-		</details>
-	</details>
 </details>
+
+
+	
+
