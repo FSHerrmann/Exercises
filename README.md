@@ -459,7 +459,26 @@ else:
 
 </pre>
 </details>
-	
+<details>
+	<summary>25</summary>
+Write a Python program to check whether a specified value is contained in a group of values.
+Test Data :
+3 -> [1, 5, 8, 3] : True
+-1 -> [1, 5, 8, 3] : False
+<pre>
+def check_if_contained(i, data):
+	for x in data:
+        if i == x:
+            return (True)
+    return (False)
+
+data_group = [1, 5, 8, 3]
+print(check_if_contained(3, data_group))
+print(check_if_contained(-1, data_group))
+</pre>
+</details>
+
+
 	
 </details>
 </details>
