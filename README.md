@@ -4,12 +4,10 @@ Here you can find some python exercises. <br/>
 In case of everything work out as planned(i have free time), I will provide more than one answer to each question (Usually useless, just for fun) <br/>
 <a href= "https://www.w3resource.com/python-exercises/">w3resource</a> is the resource(ha!) of the questions.
 
+<details><summary>W3RESOURCE</summary>
 <details>
-<summary>W3RESOURCE</summary>
-	<details>
-	<summary>Python Basic (Part -I)</summary>
-       		<details>
-        	<summary>1</summary>
+<summary>Python Basic (Part -I)</summary>
+		<summary>1</summary>
 Write a Python program to print the following string in a specific format (see the output). Go to the editor
 Sample String : "Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky. Twinkle, twinkle, little star, How           I wonder what you are" Output :
 			
@@ -51,9 +49,7 @@ print("winkle, Twinkle, little star,\n        How I wonder what you are!\n      
 Text = "winkle, Twinkle, little star,\n        How I wonder what you are!\n                Up above the world so high,\n                Like a diamond in the sky.\nTwinkle, twinkle, little star,\n    How I wonder what you are"
 print(Text)
 </pre>
-</details>
-<details> 
-        	<summary>2</summary>
+<summary>2</summary>
 Write a Python program to get the Python version you are using.
 
 First Method:
@@ -73,8 +69,7 @@ print("Python version")
 print (sys.version)
 # 0.0009987354278564453 seconds
 </pre>
-</details>
-<details> 
+
    	    	<summary>3</summary>
  Write a Python program to display the current date and time.
 Sample Output :
@@ -90,9 +85,8 @@ print(datetime.datetime.now()) # Other print, to avoid the " "
 
 Second Method:
 I could use (sys.version - irrelevant info), but nah
-</details>
-<details>
-        	<summary>4</summary>
+
+<summary>4</summary>
 Write a Python program which accepts the radius of a circle from the user and compute the area.
 Sample Output :
 r = 1.1
@@ -121,9 +115,8 @@ def area():
 area()
 # 1.540489912033081 Seconds.
 </pre>
-</details>
-<details>
-        	<summary>5</summary>
+
+<summary>5</summary>
 Write a Python program which accepts the user's first and last name and print them in reverse order with a space between them.
 
 First Method:
@@ -165,9 +158,8 @@ name()
 
 # 4.156754732131958 Seconds.
 </pre>
-</details>
-<details>
-        	<summary>6</summary>
+
+<summary>6</summary>
 Write a Python program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers.
 Sample data : 3, 5, 7, 23
 Output :
@@ -184,10 +176,8 @@ UserNumbersTuple = tuple(UserNumbersList)
 
 # Time:  3.716700315475464
 </pre>
-</details>
-		
-<details>
-        	<summary>7</summary>
+
+<summary>7</summary>
 Write a Python program to accept a filename from the user and print the extension of that.
 Sample filename : abc.java
 Output : java
@@ -201,10 +191,7 @@ print(FileName[-1])
 
 # Time 7.073101282119751
 </pre>
-</details>
-		
-<details>
-        	<summary>8</summary>
+<summary>8</summary>
 Write a Python program to display the first and last colors from the following list.
 color_list = ["Red","Green","White" ,"Black"]
 
@@ -214,10 +201,8 @@ print(color_list[0], color_list[-1])
 
 # Time 0.012399673461914062
 </pre>
-</details>
-		
-<details>
-        	<summary>9</summary>
+
+<summary>9</summary>
  Write a Python program to display the examination schedule. (extract the date from exam_st_date).
 exam_st_date = (11, 12, 2014)
 Sample Output : The examination will start from : 11 / 12 / 2014
@@ -229,10 +214,8 @@ print ("The examination will start from: ", exam_st_date[0],"/", exam_st_date[1]
 
 # Time 0.0004971027374267578
 </pre>
-</details>
-		
-<details>
-        	<summary>10</summary>
+
+<summary>10</summary>
 Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn
 	<br>Sample value of n is 5
 		<br>Expected Result : 615
@@ -242,10 +225,7 @@ print(BaseNumber + BaseNumber**2 + BaseNumber**3)
 
 # Time 2.142456293106079
 </pre>
-</details>
-		
-<details>
-        	<summary>11</summary>
+<summary>11</summary>
 Write a Python program to print the documents (syntax, description etc.) of Python built-in function(s).
 	<br>Sample function: abs()
 
@@ -254,13 +234,9 @@ print(abs.__doc__)
 
 # Time 0.0 , could be faster
 </pre>
-</details>
-		
-<details>
-        	<summary>12</summary>
+<summary>12</summary>
 Write a Python program to print the calendar of a given month and year.
 	<br>Note : Use 'calendar' module.
-
 
 <pre>
 year = int(input("Year: "))
@@ -270,16 +246,11 @@ print(calendar.month(year, month))
 
 # Time 0.0 , could be faster
 </pre>
-</details>
 
-<details>
-        	<summary>14</summary>
+<summary>14</summary>
 Write a Python program to calculate number of days between two dates.
 	<br>Sample dates : (2014, 7, 2), (2014, 7, 11)
 	<br>Expected output : 9 days
-
-
-
 <pre>
 from datetime import date
 
@@ -289,10 +260,8 @@ print((ldate - fdate).days)
 
 # Time 0.003968238830566406
 </pre>
-</details>
 
-<details>
-        	<summary>15</summary>
+<summary>15</summary>
  Write a Python program to compute the product of a list of integers (without using for loop)
 <pre>
 actualposition ,total  = 0, 1
@@ -303,20 +272,15 @@ while actualposition  < (len(numbers)):
     total = (numbers[actualposition]*total)
     actualposition += 1
 </pre>
-</details>
 
-	
-<details>
-        	<summary>116 (mb) </summary>
+<summary>116 (mb) </summary>
 Write a Python program to print Unicode characters.
 	<pre>
 	Unicode = u'\03 \u004E \u0049 \u0043 \u0045 \03'
 	print(Unicode)
 	</pre>
 # Time 0.0004966259002685547
-</details>
 
-<details>
 	<summary>16</summary>
 Write a Python program to get the difference between a given number and 17, if the number is greater than 17 return double the absolute difference.
 <pre>
@@ -331,10 +295,8 @@ elif n1 == 17:
 else:
     print ("Given number is lower then 17")
 </pre>
-</details>
 
-<details>
-	<summary>17</summary>
+<summary>17</summary>
 Write a Python program to test whether a number is within 100 of 1000 or 2000.
 <pre>
 YourNumber = float(input("Enter your number: "))
@@ -345,10 +307,8 @@ elif abs(YourNumber - 2000) <= 100:
     print(YourNumber - 2000)
 else: print("None of them")
 </pre>
-</details>
 
-<details>
-	<summary>18</summary>
+<summary>18</summary>
 Write a Python program to calculate the sum of three given numbers, if the values are equal then return three times of their sum.
 <pre>
 def nsums(n1, n2, n3):
@@ -361,10 +321,8 @@ def nsums(n1, n2, n3):
 print(nsums(-3, 0, 9))
 print(nsums(2, 2, 2))
 </pre>
-</details>
 
-<details>
-	<summary>19</summary>
+<summary>19</summary>
 Write a Python program to get a new string from a given string where "Is" has been added to the front.
 If the given string already begins with "Is" then return the string unchanged.
 <pre>
@@ -379,21 +337,17 @@ input_Is(phrase)
 phrase = ("IsThisOk?")
 input_Is(phrase)
 </pre>
-</details>
-<details>
-	<summary>20</summary>
-Write a Python program to get a string which is n (non-negative integer) copies of a given string.
 
+<summary>20</summary>
+Write a Python program to get a string which is n (non-negative integer) copies of a given string.
 <pre>
 	def repeat_this (x, y):
     print(x*y)
 
 repeat_this("Hi", 3)
 </pre>
-</details>
 
-<details>
-	<summary>21</summary>
+<summary>21</summary>
 Write a Python program to find whether a given number (accept from the user) is even or 
 odd, print out an appropriate message to the user.
 <pre>
@@ -407,10 +361,8 @@ num = int(input("Insert Number: "))
 
 even_or_odd(num)
 </pre>
-</details>
 
-<details>
-	<summary>22</summary>
+<summary>22</summary>
 Write a Python program to count the number 4 in a given list.
 <pre>
 def search_num4(x):
@@ -426,10 +378,8 @@ list_two = [4, 4 , 4, 4, 4, 4, 4]
 search_num4(list_one)
 search_num4(list_two)
 </pre>
-</details>
 
-<details>
-	<summary>23</summary>
+<summary>23</summary>
 Write a Python program to get the n (non-negative integer) copies of the first 2 characters
 of a given string. Return the n copies of the whole string if the length is less than
 <pre>
@@ -441,10 +391,8 @@ word = str(input("Enter with the word or phrase: "))
 rep = int(input("How many times you want to repeat the first two letters?"))
 copies(word, rep)
 </pre>
-</details>
 
-<details>
-	<summary>24</summary>
+<summary>24</summary>
 Write a Python program to test whether a passed letter is a vowel or not.
 <pre>
 	def vogal(letter):
@@ -458,9 +406,8 @@ else:
     print("Not Vowel")
 
 </pre>
-</details>
-<details>
-	<summary>25</summary>
+
+<summary>25</summary>
 Write a Python program to check whether a specified value is contained in a group of values.
 Test Data :
 3 -> [1, 5, 8, 3] : True
@@ -477,18 +424,51 @@ print(check_if_contained(3, data_group))
 print(check_if_contained(-1, data_group))
 </pre>
 </details>
+</details>
 
-
-	
-</details>
-</details>
-</details>
 <h1>C++</h1>
 <details>
-	<summary><a href= "https://www.w3resource.com/cpp-exercises/">W3resource</a></summary>
-	<details><summary>C++ Basic</summary>
-	
-		
+<summary><a href= "https://www.w3resource.com/cpp-exercises/">W3resource</a></summary>
+<details><summary>C++ Basic</summary>
+<summary>1</summary>
+Write a program in C++ to print a welcome text in a separate line
+<pre>
+    #include <iostream>
+        using namespace std;
+        
+        int main()
+        {
+          cout << "Wellcome :" <<endl;
+          cout << "Thats some c++ Exercises";
+          return 0;
+        }        
+</pre>
+
+<summary>2</summary>
+Write a program in C++ to print the sum of two numbers.
+<pre>
+    #include <iostream>
+        using namespace std;
+        
+        int main()
+        {
+        cout << "5 + 9 = " <<5+9;
+        }        
+</pre>
+
+<summary>3</summary>
+Write a program in C++ to find Size of fundamental data types.
+<pre>
+#include <iostream>
+    using namespace std;
+    int main()
+    {
+    string name("Felipe");
+    cout << "Size of my name (Felipe) is: " <<sizeof(name) << "bytes";
+    
+    return 0;
+    }
+</pre>
 </details>
 
 
