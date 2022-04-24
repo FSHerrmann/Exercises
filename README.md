@@ -12,7 +12,7 @@ In case of everything work out as planned(i have free time), I will provide more
 <summary>1</summary>
 Write a Python program find a list of integers with exactly two occurrences of nineteen and at least three occurrences of five.
 <pre>
-    def teste(lista):
+def teste(lista):
     print("The list:", lista)
     if lista.count(19) == 2 and lista.count(5) >= 3:
         print(True)
@@ -28,8 +28,7 @@ teste(list2)
 <summary>2</summary>
 Write a Python program that accept a list of integers and check the length and the fifth element.
 Return true if the length of the list is 8 and fifth element occurs thrice in the said list.
-<pre>
-    def check(lista):
+def check(lista):
     if lista.count(lista[4]) == 3:
         print(lista, "True")
     else:
