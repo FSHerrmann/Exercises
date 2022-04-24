@@ -6,8 +6,48 @@ In case of everything work out as planned(i have free time), I will provide more
 
 <details><summary>W3RESOURCE</summary>
 <details>
+<summary> Python Programming Puzzles </summary>
+
+
+<summary>1</summary>
+Write a Python program find a list of integers with exactly two occurrences of nineteen and at least three occurrences of five.
+<pre>
+    def teste(lista):
+    print("The list:", lista)
+    if lista.count(19) == 2 and lista.count(5) >= 3:
+        print(True)
+    else:
+        print(False)
+
+
+list1 = [1,2,3,4,5,5,5,5,19,19]
+teste(list1)
+list2 = [5,5,5,5,55,5,5,19,19,19,19]
+teste(list2)
+</pre>
+<summary>2</summary>
+Write a Python program that accept a list of integers and check the length and the fifth element.
+Return true if the length of the list is 8 and fifth element occurs thrice in the said list.
+<pre>
+    def check(lista):
+    if lista.count(lista[4]) == 3:
+        print(lista, "True")
+    else:
+        print(lista, "False")
+
+
+list1 = ([1,2,3,4,5,5,5,6])
+check(list1)
+
+list2 =([0,1,2,3,4,5,6,7,8,9])
+check(list2)
+</pre>
+
+</details>
+	
+<details>
 <summary>Python Basic (Part -I)</summary>
-		<summary>1</summary>
+	<summary>1</summary>
 Write a Python program to print the following string in a specific format (see the output). Go to the editor
 Sample String : "Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky. Twinkle, twinkle, little star, How           I wonder what you are" Output :
 			
@@ -222,8 +262,8 @@ Write a Python program that accepts an integer (n) and computes the value of n+n
 <pre>
 BaseNumber = int(input("Enter the number n: "))
 print(BaseNumber + BaseNumber**2 + BaseNumber**3)
-
 # Time 2.142456293106079
+
 </pre>
 <summary>11</summary>
 Write a Python program to print the documents (syntax, description etc.) of Python built-in function(s).
