@@ -469,8 +469,34 @@ Write a program in C++ to find Size of fundamental data types.
     return 0;
     }
 </pre>
+
+<summary>4</summary>
+Write a program in C++ to print the sum of two numbers using variables.
+<pre>
+#include <iostream>
+using namespace std;
+        
+int main()
+{
+float a = (2.3), b(9.8);
+cout << "The sums of a b = " << (a+b);
+}
+</pre>
+
+<summary>5</summary>
+Write a program in C++ to check the upper and lower limits of integer
+<pre>
+#include <iostream>
+#include <climits>
+using namespace std;
+
+int main()
+{
+cout << "The maximum limit in data type: " << INT_MAX << endl;
+cout << "The maximum limit in data type is: " << INT_MIN << endl;
+
+return 0;
+}
+</pre>
+
 </details>
-
-
-	
-
